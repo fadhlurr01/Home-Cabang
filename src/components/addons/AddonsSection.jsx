@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { CreditCard, Database, MessageSquareCode, Workflow } from 'lucide-react';
 
 const ADDONS = [
@@ -48,7 +48,7 @@ export default function AddonsSection() {
                   height: 44,
                   borderRadius: '12px',
                   background: '#eff6ff',
-                  color: '#2563eb',
+                  color: 'var(--branch-teal-700)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -70,3 +70,4 @@ export default function AddonsSection() {
     </section>
   );
 }
+

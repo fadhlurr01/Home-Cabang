@@ -82,7 +82,7 @@ export default function BrochureSection() {
                   <button
                     type="button"
                     className="btn btn-primary"
-                    onClick={() => showToast('Mengunduh CONTRACTOR_HUB_MultiBranch_Guide_2026.pdf...', 'success')}
+                    onClick={() => showToast('Mengunduh TOYHUB_MultiBranch_Guide_2026.pdf...', 'success')}
                     style={{ width: '100%' }}
                   >
                     Unduh Dokumen PDF (4.2 MB)

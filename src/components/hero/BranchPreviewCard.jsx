@@ -5,35 +5,35 @@ const BRANCH_TABS = [
   {
     id: 'jkt',
     city: 'Jakarta Pusat',
-    name: 'HQ Contractor & Multi-Branch Center',
-    address: 'Jl. MH Thamrin No. 28, Menteng, Jakarta Pusat',
-    phone: '+62 21 3983 8800',
-    hours: '08:00 - 20:00 WIB',
-    manager: 'Bambang Sudarsono, S.T.',
+    name: 'HQ ToyHub & Multi-Branch Center',
+    address: 'Grand Indonesia West Mall Lt. 3, Jakarta Pusat',
+    phone: '+62 811-2222-100',
+    hours: '10:00 - 22:00 WIB',
+    manager: 'Bambang Sudarsono',
     rating: '4.9 ★',
-    projects: '42 Project Aktif'
+    projects: '1.420 SKU Ready'
   },
   {
     id: 'sby',
     city: 'Surabaya Barat',
-    name: 'Regional Hub Jawa Timur & Bali',
-    address: 'Pakuwon Tower Lt. 15, Jl. Mayjen Jonosewojo No. 2, Surabaya',
-    phone: '+62 31 7393 2100',
-    hours: '08:30 - 19:30 WIB',
-    manager: 'Hendrawan Putra, M.Arch.',
+    name: 'Regional Hub Jawa Timur (Mega Store)',
+    address: 'Tunjungan Plaza 4 Lt. 4 No. 120, Surabaya',
+    phone: '+62 831-3333-300',
+    hours: '10:00 - 22:00 WIB',
+    manager: 'Hendrawan Putra',
     rating: '4.8 ★',
-    projects: '28 Project Aktif'
+    projects: '1.850 SKU Ready'
   },
   {
-    id: 'mdn',
-    city: 'Medan Kota',
-    name: 'Regional Hub Sumatra & Sekitarnya',
-    address: 'Podomoro City Deli Park, Jl. Putri Hijau No. 1, Medan',
-    phone: '+62 61 4552 1100',
-    hours: '08:00 - 18:00 WIB',
+    id: 'bdg',
+    city: 'Bandung Store',
+    name: 'Regional Hub Jawa Barat & Atelier',
+    address: 'Paris Van Java Resort Level No. 18, Bandung',
+    phone: '+62 822-1111-200',
+    hours: '10:00 - 22:00 WIB',
     manager: 'Dra. Nurhaliza Lubis',
     rating: '4.9 ★',
-    projects: '19 Project Aktif'
+    projects: '980 SKU Ready'
   }
 ];
 

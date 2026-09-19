@@ -113,7 +113,7 @@ export default function HeroSection() {
                 </div>
 
                 {/* Interactive branch live detail display */}
-                <div className="bp-viewport" style={{ background: '#ffffff', borderRadius: '16px', padding: '16px', boxShadow: '0 12px 30px rgba(0,0,0,0.25)' }}>
+                <div className="bp-viewport" style={{ borderRadius: '16px', padding: '16px', boxShadow: '0 12px 30px rgba(0,0,0,0.25)' }}>
                   {bpIdx === 0 && (
                     <div className="bp-body active" data-branch="jakarta">
                       <div className="bp-row">
@@ -125,7 +125,7 @@ export default function HeroSection() {
                         </div>
                         <div>
                           <div className="bp-label">Lokasi Gerai Cabang</div>
-                          <div className="bp-value" style={{ color: '#0b3d4f', fontWeight: 800 }}>Grand Indonesia West Mall Lt. 3, Jakarta Pusat</div>
+                          <div className="bp-value bp-loc-val">Grand Indonesia West Mall Lt. 3, Jakarta Pusat</div>
                         </div>
                       </div>
                       <div className="bp-row">
@@ -165,7 +165,7 @@ export default function HeroSection() {
                         </div>
                         <div>
                           <div className="bp-label">Lokasi Gerai Cabang</div>
-                          <div className="bp-value" style={{ color: '#0b3d4f', fontWeight: 800 }}>Paris Van Java Resort Level No. 18, Bandung</div>
+                          <div className="bp-value bp-loc-val">Paris Van Java Resort Level No. 18, Bandung</div>
                         </div>
                       </div>
                       <div className="bp-row">
@@ -205,7 +205,7 @@ export default function HeroSection() {
                         </div>
                         <div>
                           <div className="bp-label">Lokasi Gerai Cabang</div>
-                          <div className="bp-value" style={{ color: '#0b3d4f', fontWeight: 800 }}>Tunjungan Plaza 4 Lt. 4 No. 120, Surabaya</div>
+                          <div className="bp-value bp-loc-val">Tunjungan Plaza 4 Lt. 4 No. 120, Surabaya</div>
                         </div>
                       </div>
                       <div className="bp-row">
@@ -315,7 +315,7 @@ export default function HeroSection() {
             <div className="rate-lbl">
               <span>★ 4.98 Rating</span>
               <br />
-              <strong style={{ color: '#0b3d4f' }}>500+ Cabang</strong>
+              <strong>500+ Cabang</strong>
             </div>
           </div>
 

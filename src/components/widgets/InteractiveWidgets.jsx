@@ -41,7 +41,7 @@ export default function InteractiveWidgets() {
               <span className="sc-status"><i></i> LIVE ROUTING</span>
             </div>
 
-            <div style={{ width: 44, height: 44, borderRadius: '12px', background: '#eff6ff', color: '#2563eb', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
+            <div style={{ width: 44, height: 44, borderRadius: '12px', background: 'rgba(13,85,104,0.08)', color: 'var(--branch-teal-700)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
               <Navigation size={22} />
             </div>
 
@@ -53,7 +53,7 @@ export default function InteractiveWidgets() {
             </p>
 
             <div className="widget-demo-box">
-              <div style={{ fontSize: '12px', fontWeight: 700, color: '#2563eb', marginBottom: '8px' }}>
+              <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--branch-teal-700)', marginBottom: '8px' }}>
                 Simulasi Deteksi Lokasi Pengunjung:
               </div>
               <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', marginBottom: '12px' }}>
@@ -68,7 +68,7 @@ export default function InteractiveWidgets() {
                       fontSize: '12px',
                       fontWeight: 700,
                       border: '1px solid #cbd5e1',
-                      background: selectedCity === city ? '#2563eb' : '#ffffff',
+                      background: selectedCity === city ? 'var(--branch-teal-700)' : '#ffffff',
                       color: selectedCity === city ? '#ffffff' : '#1e293b'
                     }}
                   >
@@ -76,7 +76,7 @@ export default function InteractiveWidgets() {
                   </button>
                 ))}
               </div>
-              <div style={{ padding: '8px 10px', borderRadius: '6px', background: '#dbeafe', fontSize: '12.5px', color: '#1e40af', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <div style={{ padding: '8px 10px', borderRadius: '6px', background: 'rgba(13,85,104,0.08)', fontSize: '12.5px', color: 'var(--branch-teal-700)', display: 'flex', alignItems: 'center', gap: '6px' }}>
                 <MapPin size={14} /> Terpilih: <strong>Cabang {selectedCity} (Jarak ~1.2 km)</strong>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function InteractiveWidgets() {
               <span className="sc-status"><i></i> INVENTORY SYNC</span>
             </div>
 
-            <div style={{ width: 44, height: 44, borderRadius: '12px', background: '#eff6ff', color: '#2563eb', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
+            <div style={{ width: 44, height: 44, borderRadius: '12px', background: 'rgba(13,85,104,0.08)', color: 'var(--branch-teal-700)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
               <RefreshCw size={22} />
             </div>
 
@@ -101,7 +101,7 @@ export default function InteractiveWidgets() {
             </p>
 
             <div className="widget-demo-box">
-              <div style={{ fontSize: '12px', fontWeight: 700, color: '#2563eb', marginBottom: '8px' }}>
+              <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--branch-teal-700)', marginBottom: '8px' }}>
                 Cek Ketersediaan Barang Cabang:
               </div>
               <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '10px', marginBottom: '10px' }}>
@@ -124,7 +124,7 @@ export default function InteractiveWidgets() {
               <span className="sc-status"><i></i> WA LEAD ROUTER</span>
             </div>
 
-            <div style={{ width: 44, height: 44, borderRadius: '12px', background: '#eff6ff', color: '#2563eb', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
+            <div style={{ width: 44, height: 44, borderRadius: '12px', background: 'rgba(13,85,104,0.08)', color: 'var(--branch-teal-700)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
               <Smartphone size={22} />
             </div>
 

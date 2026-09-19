@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 
 export default function ScrollProgress() {
   const [progress, setProgress] = useState(0);
@@ -27,9 +27,10 @@ export default function ScrollProgress() {
         left: 0,
         height: '3px',
         zIndex: 101,
-        background: 'linear-gradient(90deg, #3b82f6, #2563eb)',
+        background: 'linear-gradient(90deg, var(--branch-teal-500), var(--branch-teal-700))',
         transition: 'width 0.1s ease-out'
       }}
     />
   );
 }
+

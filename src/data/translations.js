@@ -81,7 +81,7 @@ export const translations = {
       eyebrow: '#1 Multi-Branch Website Platform in Indonesia',
       title_part1: 'Unified Website Architecture for',
       title_grad: 'Hundreds of Branches',
-      title_part2: ', Franchises & Contractor Networks',
+      title_part2: ', Franchises & Toy Store Networks',
       lead: 'Manage hundreds of branch domains, localized product catalogs, and smart routing from a single centralized headquarters dashboard.',
       cta_consult: 'Free Consultation Now',
       cta_demo: 'Explore Interactive Demo',

@@ -8,12 +8,12 @@ export default function SolutionsSection() {
   const { openConsultModal } = useApp();
 
   return (
-    <section className="section" id="solusi-model" style={{ background: '#ffffff', paddingTop: '90px' }}>
+    <section className="section section-solutions" id="solusi-model" style={{ paddingTop: '90px' }}>
       <div className="container">
         {/* Top Header Split: Coral Accent Title + 2 Circular Badges matching reference mockup */}
         <div className="showcase-head-split">
           <div>
-            <span className="eyebrow" style={{ background: '#fef2f2', color: '#ef4444', borderColor: '#fee2e2' }}>
+            <span className="eyebrow eyebrow-coral">
               Solusi Segmen Mainan &amp; Hobby
             </span>
             <h2 className="showcase-title-coral">

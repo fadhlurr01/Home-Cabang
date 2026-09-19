@@ -1,17 +1,25 @@
 import React from 'react';
 
 export default function Footer() {
+  const handleFooterNav = (e, id) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <a href="#beranda" className="logo">
+            <a href="#beranda" onClick={(e) => handleFooterNav(e, 'beranda')} className="logo">
               <span
                 className="logo-mark"
                 aria-hidden="true"
                 style={{
-                  background: 'linear-gradient(135deg, #1d4ed8, #2563eb)',
+                  background: 'linear-gradient(135deg, var(--branch-teal-600), var(--branch-teal-700))',
                   boxShadow: '0 8px 20px -6px rgba(37, 99, 235, 0.5)'
                 }}
               >
@@ -34,7 +42,7 @@ export default function Footer() {
               </span>
               <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.1 }}>
                 <span className="logo-word" style={{ fontWeight: 900, fontSize: '18px', letterSpacing: '-0.02em', color: 'var(--branch-text)' }}>
-                  TOYHUB<span style={{ color: '#2563eb' }}>.CABANG</span>
+                  TOYHUB<span style={{ color: 'var(--branch-teal-700)' }}>.CABANG</span>
                 </span>
                 <span style={{ fontSize: '10px', fontWeight: 700, color: 'var(--branch-slate-500)', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
                   Ekosistem Toko Mainan
@@ -46,7 +54,15 @@ export default function Footer() {
             </p>
             <div className="footer-certs">
               <span className="cert">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" style={{ width: '13px', height: '13px', verticalAlign: '-2px' }}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  style={{ width: '13px', height: '13px', verticalAlign: '-2px' }}
+                >
                   <path d="M12 2l7 3v6c0 5-3 8.5-7 10-4-1.5-7-5-7-10V5z" />
                   <path d="M9 12l2 2 4-4" />
                 </svg>{' '}
@@ -59,34 +75,34 @@ export default function Footer() {
           <div>
             <h4>Solusi Segmen Mainan</h4>
             <ul>
-              <li><a href="#solusi-model">Franchise Toko Mainan</a></li>
-              <li><a href="#solusi-model">Chain Store Mall &amp; Hobby</a></li>
-              <li><a href="#solusi-model">Retail Blind Box &amp; Art Toys</a></li>
-              <li><a href="#solusi-model">Portal Mitra Franchisee</a></li>
+              <li><a href="#solusi-model" onClick={(e) => handleFooterNav(e, 'solusi-model')}>Franchise Toko Mainan</a></li>
+              <li><a href="#solusi-model" onClick={(e) => handleFooterNav(e, 'solusi-model')}>Chain Store Mall &amp; Hobby</a></li>
+              <li><a href="#solusi-model" onClick={(e) => handleFooterNav(e, 'solusi-model')}>Retail Blind Box &amp; Art Toys</a></li>
+              <li><a href="#solusi-model" onClick={(e) => handleFooterNav(e, 'solusi-model')}>Portal Mitra Franchisee</a></li>
             </ul>
           </div>
           <div>
             <h4>Modul &amp; Teknologi</h4>
             <ul>
-              <li><a href="#fitur">Master HQ Catalog Lock</a></li>
-              <li><a href="#widget">Smart Toy Store Router</a></li>
-              <li><a href="#widget">Mall &amp; Branch Locator</a></li>
-              <li><a href="#portofolio">Template E-Commerce Mainan (15)</a></li>
-              <li><a href="#addons">Integrasi Barcode &amp; POS Kasir</a></li>
+              <li><a href="#fitur" onClick={(e) => handleFooterNav(e, 'fitur')}>Master HQ Catalog Lock</a></li>
+              <li><a href="#widget" onClick={(e) => handleFooterNav(e, 'widget')}>Smart Toy Store Router</a></li>
+              <li><a href="#widget" onClick={(e) => handleFooterNav(e, 'widget')}>Mall &amp; Branch Locator</a></li>
+              <li><a href="#portofolio" onClick={(e) => handleFooterNav(e, 'portofolio')}>Template E-Commerce Mainan (15)</a></li>
+              <li><a href="#addons" onClick={(e) => handleFooterNav(e, 'addons')}>Integrasi Barcode &amp; POS Kasir</a></li>
             </ul>
           </div>
           <div>
             <h4>Kontak &amp; Kantor</h4>
             <ul>
-              <li><a href="#kontak">Head Office Jakarta</a></li>
-              <li><a href="#kontak">Customer Support 24/7</a></li>
+              <li><a href="#kontak" onClick={(e) => handleFooterNav(e, 'kontak')}>Head Office Jakarta</a></li>
+              <li><a href="#kontak" onClick={(e) => handleFooterNav(e, 'kontak')}>Customer Support 24/7</a></li>
               <li><a href="mailto:halo@toyhub.id">Email Enterprise Mainan</a></li>
-              <li><a href="#kontak">Jadwal Onboarding Toko</a></li>
+              <li><a href="#kontak" onClick={(e) => handleFooterNav(e, 'kontak')}>Jadwal Onboarding Toko</a></li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>Hak Cipta © 2026 TOYHUB.CABANG Enterprise — Ekosistem Toko Mainan Indonesia.</p>
+          <p>Hak Cipta Â© 2026 TOYHUB.CABANG Enterprise â€” Ekosistem Toko Mainan Indonesia.</p>
           <div className="footer-legal">
             <a href="#">Kebijakan Privasi</a>
             <a href="#">Syarat Layanan Toko</a>
@@ -97,3 +113,4 @@ export default function Footer() {
     </footer>
   );
 }
+

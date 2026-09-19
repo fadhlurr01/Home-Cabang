@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Building2, Store, Landmark, ShieldCheck } from 'lucide-react';
 
 const CLIENT_GROUPS = [
@@ -45,7 +45,7 @@ export default function ClientsSection() {
                 height: 48,
                 borderRadius: '12px',
                 background: '#eff6ff',
-                color: '#2563eb',
+                color: 'var(--branch-teal-700)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -59,8 +59,8 @@ export default function ClientsSection() {
                 <h4 style={{ fontSize: '15px', fontWeight: 800, color: 'var(--text-main)', marginBottom: '2px' }}>
                   {client.name}
                 </h4>
-                <div style={{ fontSize: '12px', color: '#2563eb', fontWeight: 700 }}>
-                  {client.branches} · {client.type}
+                <div style={{ fontSize: '12px', color: 'var(--branch-teal-700)', fontWeight: 700 }}>
+                  {client.branches} Â· {client.type}
                 </div>
               </div>
             </div>
@@ -70,3 +70,4 @@ export default function ClientsSection() {
     </section>
   );
 }
+

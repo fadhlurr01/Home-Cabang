@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Check, Star, ArrowRight } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
@@ -137,7 +137,7 @@ export default function PricingSection() {
                 onClick={openConsultModal}
                 style={{
                   width: '100%',
-                  background: plan.featured ? 'linear-gradient(135deg, #2563eb, #1d4ed8)' : undefined,
+                  background: plan.featured ? 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))' : undefined,
                   color: plan.featured ? '#ffffff' : undefined
                 }}
               >

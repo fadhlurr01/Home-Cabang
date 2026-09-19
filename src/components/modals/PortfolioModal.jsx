@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { X, ExternalLink, Monitor, Tablet, Smartphone, Sparkles, Star } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
@@ -36,7 +36,7 @@ export default function PortfolioModal() {
               <span style={{
                 fontSize: '11px',
                 fontWeight: 700,
-                color: '#2563eb',
+                color: 'var(--branch-teal-700)',
                 background: '#eff6ff',
                 padding: '2px 8px',
                 borderRadius: '9999px',
@@ -57,7 +57,7 @@ export default function PortfolioModal() {
               className={`device-btn ${deviceView === 'desktop' ? 'active' : ''}`}
               onClick={() => setDeviceView('desktop')}
               style={{
-                background: deviceView === 'desktop' ? '#2563eb' : 'transparent',
+                background: deviceView === 'desktop' ? 'var(--branch-teal-700)' : 'transparent',
                 color: deviceView === 'desktop' ? '#ffffff' : '#475569'
               }}
             >
@@ -68,7 +68,7 @@ export default function PortfolioModal() {
               className={`device-btn ${deviceView === 'tablet' ? 'active' : ''}`}
               onClick={() => setDeviceView('tablet')}
               style={{
-                background: deviceView === 'tablet' ? '#2563eb' : 'transparent',
+                background: deviceView === 'tablet' ? 'var(--branch-teal-700)' : 'transparent',
                 color: deviceView === 'tablet' ? '#ffffff' : '#475569'
               }}
             >
@@ -79,7 +79,7 @@ export default function PortfolioModal() {
               className={`device-btn ${deviceView === 'mobile' ? 'active' : ''}`}
               onClick={() => setDeviceView('mobile')}
               style={{
-                background: deviceView === 'mobile' ? '#2563eb' : 'transparent',
+                background: deviceView === 'mobile' ? 'var(--branch-teal-700)' : 'transparent',
                 color: deviceView === 'mobile' ? '#ffffff' : '#475569'
               }}
             >
@@ -99,7 +99,7 @@ export default function PortfolioModal() {
                   padding: '8px 14px',
                   fontSize: '13px',
                   borderColor: '#cbd5e1',
-                  color: '#2563eb'
+                  color: 'var(--branch-teal-700)'
                 }}
               >
                 <ExternalLink size={14} /> Buka Tab Baru
@@ -144,9 +144,9 @@ export default function PortfolioModal() {
                 padding: '40px',
                 textAlign: 'center'
               }}>
-                <Sparkles size={48} color="#2563eb" style={{ marginBottom: 16 }} />
+                <Sparkles size={48} color="var(--branch-teal-700)" style={{ marginBottom: 16 }} />
                 <h4 style={{ fontSize: '20px', fontWeight: 800, color: '#0f172a', marginBottom: 8 }}>
-                  {previewItem.name} — Live Interactive Module
+                  {previewItem.name} â€” Live Interactive Module
                 </h4>
                 <p style={{ maxWidth: 500, color: '#475569', fontSize: '14px', lineHeight: 1.6 }}>
                   {previewItem.desc}
@@ -187,7 +187,7 @@ export default function PortfolioModal() {
               style={{
                 padding: '10px 20px',
                 fontSize: '13.5px',
-                background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', // ROYAL BLUE
+                background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))', // ROYAL BLUE
                 color: '#ffffff'
               }}
             >

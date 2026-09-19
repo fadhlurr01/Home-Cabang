@@ -5,14 +5,34 @@ const AppContext = createContext();
 
 export function AppProvider({ children }) {
   const [language, setLanguage] = useState('id');
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(() => {
+    try {
+      const saved = localStorage.getItem('toyhub_theme');
+      if (saved === 'dark' || saved === 'light') return saved;
+    } catch (e) {
+      // ignore
+    }
+    return 'light';
+  });
   const [isConsultModalOpen, setIsConsultModalOpen] = useState(false);
   const [previewItem, setPreviewItem] = useState(null);
   const [toasts, setToasts] = useState([]);
 
-  // Sync theme with HTML data-theme attribute
+  // Sync theme with HTML data-theme attribute and body/html .dark class
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
+    if (theme === 'dark') {
+      document.body.classList.add('dark');
+      document.documentElement.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+      document.documentElement.classList.remove('dark');
+    }
+    try {
+      localStorage.setItem('toyhub_theme', theme);
+    } catch (e) {
+      // ignore
+    }
   }, [theme]);
 
   const toggleTheme = () => {

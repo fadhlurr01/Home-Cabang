@@ -36,8 +36,8 @@ export default function BrochureSection() {
     <section className="section" id="brosur">
       <div className="container">
         <div className="card" style={{
-          background: 'linear-gradient(135deg, #1e3a8a, #1e40af)',
-          border: '1px solid #3b82f6',
+          background: 'linear-gradient(135deg, var(--branch-teal-800), #1e40af)',
+          border: '1px solid var(--branch-teal-500)',
           color: '#ffffff',
           padding: '48px 40px',
           boxShadow: '0 20px 50px -10px rgba(30, 58, 138, 0.4)'
@@ -61,7 +61,7 @@ export default function BrochureSection() {
                 fontWeight: 700,
                 marginBottom: '18px'
               }}>
-                <FileText size={14} /> PDF E-BOOK · 48 HALAMAN
+                <FileText size={14} /> PDF E-BOOK Â· 48 HALAMAN
               </div>
 
               <h2 style={{ fontSize: '32px', fontWeight: 800, color: '#ffffff', lineHeight: 1.2, marginBottom: '16px' }}>
@@ -100,7 +100,7 @@ export default function BrochureSection() {
                     height: 56,
                     borderRadius: '50%',
                     background: '#eff6ff',
-                    color: '#2563eb',
+                    color: 'var(--branch-teal-700)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -116,10 +116,10 @@ export default function BrochureSection() {
                     href="#download"
                     onClick={(e) => {
                       e.preventDefault();
-                      showToast('Mengunduh CONTRACTOR_HUB_MultiBranch_Guide_2026.pdf...', 'success');
+                      showToast('Mengunduh TOYHUB_MultiBranch_Guide_2026.pdf...', 'success');
                     }}
                     className="btn btn-primary"
-                    style={{ width: '100%', background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', color: '#ffffff' }}
+                    style={{ width: '100%', background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))', color: '#ffffff' }}
                   >
                     <Download size={16} /> Unduh PDF Sekarang
                   </a>
@@ -167,7 +167,7 @@ export default function BrochureSection() {
                     type="submit"
                     disabled={isSubmitting}
                     className="btn btn-primary"
-                    style={{ width: '100%', marginTop: '6px', background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', color: '#ffffff' }}
+                    style={{ width: '100%', marginTop: '6px', background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))', color: '#ffffff' }}
                   >
                     {isSubmitting ? 'Memproses...' : 'Kirim Brosur via Email & WA'}
                   </button>
@@ -180,3 +180,4 @@ export default function BrochureSection() {
     </section>
   );
 }
+

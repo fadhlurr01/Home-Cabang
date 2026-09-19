@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Check, X, Shield, Lock } from 'lucide-react';
 
 const MATRIX_ITEMS = [
@@ -19,7 +19,7 @@ export default function PermissionsMatrix() {
         <div className="section-head">
           <div className="eyebrow">Tata Kelola Izin</div>
           <h2 className="section-title">
-            Kontrol HQ vs Izin Cabang — <em>Tanpa Kompromi</em>
+            Kontrol HQ vs Izin Cabang â€” <em>Tanpa Kompromi</em>
           </h2>
           <p className="section-sub">
             Struktur wewenang yang jelas memastikan kantor pusat memegang kendali atas aset brand dan kepatuhan, sementara cabang leluasa mengelola operasional harian.
@@ -31,10 +31,10 @@ export default function PermissionsMatrix() {
             <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '600px' }}>
               <thead>
                 <tr style={{ background: '#eff6ff', borderBottom: '1px solid #bfdbfe' }}>
-                  <th style={{ padding: '16px 24px', fontSize: '13.5px', fontWeight: 800, color: '#1d4ed8' }}>FITUR & WEWENANG SISTEM</th>
-                  <th style={{ padding: '16px 20px', fontSize: '13.5px', fontWeight: 800, color: '#1d4ed8', textAlign: 'center', width: '160px' }}>KANTOR PUSAT (HQ)</th>
-                  <th style={{ padding: '16px 20px', fontSize: '13.5px', fontWeight: 800, color: '#1d4ed8', textAlign: 'center', width: '160px' }}>CABANG / MITRA</th>
-                  <th style={{ padding: '16px 24px', fontSize: '13.5px', fontWeight: 800, color: '#1d4ed8' }}>KETERANGAN</th>
+                  <th style={{ padding: '16px 24px', fontSize: '13.5px', fontWeight: 800, color: 'var(--branch-teal-600)' }}>FITUR & WEWENANG SISTEM</th>
+                  <th style={{ padding: '16px 20px', fontSize: '13.5px', fontWeight: 800, color: 'var(--branch-teal-600)', textAlign: 'center', width: '160px' }}>KANTOR PUSAT (HQ)</th>
+                  <th style={{ padding: '16px 20px', fontSize: '13.5px', fontWeight: 800, color: 'var(--branch-teal-600)', textAlign: 'center', width: '160px' }}>CABANG / MITRA</th>
+                  <th style={{ padding: '16px 24px', fontSize: '13.5px', fontWeight: 800, color: 'var(--branch-teal-600)' }}>KETERANGAN</th>
                 </tr>
               </thead>
               <tbody>
@@ -78,3 +78,4 @@ export default function PermissionsMatrix() {
     </section>
   );
 }
+

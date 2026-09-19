@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { X, CheckCircle } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
@@ -125,7 +125,7 @@ export default function ConsultationModal() {
                 height: 64,
                 borderRadius: '50%',
                 background: '#eff6ff',
-                color: '#2563eb',
+                color: 'var(--branch-teal-700)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -133,7 +133,7 @@ export default function ConsultationModal() {
                 border: '2px solid #bfdbfe'
               }}
             >
-              <CheckCircle size={36} color="#2563eb" />
+              <CheckCircle size={36} color="var(--branch-teal-700)" />
             </div>
 
             <h3 style={{ fontSize: '22px', fontWeight: 800, color: '#0f172a', marginBottom: '8px' }}>
@@ -153,7 +153,7 @@ export default function ConsultationModal() {
                 marginBottom: '24px'
               }}
             >
-              Nomor Referensi: <strong style={{ color: '#2563eb' }}>{referenceId}</strong>
+              Nomor Referensi: <strong style={{ color: 'var(--branch-teal-700)' }}>{referenceId}</strong>
             </div>
 
             <button
@@ -163,7 +163,7 @@ export default function ConsultationModal() {
                 width: '100%',
                 padding: '14px 20px',
                 borderRadius: '9999px',
-                background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', // Royal blue
+                background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))', // Royal blue
                 color: '#ffffff',
                 fontWeight: 700,
                 border: 'none',
@@ -186,7 +186,7 @@ export default function ConsultationModal() {
                   borderRadius: '9999px',
                   background: '#eff6ff',
                   border: '1px solid #bfdbfe',
-                  color: '#1d4ed8',
+                  color: 'var(--branch-teal-600)',
                   fontSize: '11px',
                   fontWeight: 800,
                   letterSpacing: '0.06em',
@@ -194,7 +194,7 @@ export default function ConsultationModal() {
                   marginBottom: '10px'
                 }}
               >
-                🧸 Konsultasi Jaringan Toko Mainan
+                ðŸ§¸ Konsultasi Jaringan Toko Mainan
               </span>
               <h2 style={{ fontSize: '22px', fontWeight: 800, color: '#0f172a', marginBottom: '6px' }}>
                 Konsultasi Sistem Multi-Cabang Mainan
@@ -394,7 +394,7 @@ export default function ConsultationModal() {
                   marginTop: '6px',
                   padding: '14px 20px',
                   borderRadius: '9999px',
-                  background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', // Royal blue
+                  background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))', // Royal blue
                   color: '#ffffff',
                   fontSize: '14px',
                   fontWeight: 800,

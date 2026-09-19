@@ -5,109 +5,109 @@ import { useApp } from '../../context/AppContext';
 // Helper theme per kategori mainan
 const TOY_THEMES = {
   'KUBIKK': {
-    grad: 'linear-gradient(135deg, #1e3a8a, #0284c7)',
+    grad: 'linear-gradient(135deg, var(--branch-teal-800), #0284c7)',
     accent: '#38bdf8',
     category: 'Brick & Modular',
-    badge: '🧱 BRICK MODULAR AI',
-    icon: '🧱'
+    badge: 'ðŸ§± BRICK MODULAR AI',
+    icon: 'ðŸ§±'
   },
   'ICONIQ Atelier': {
     grad: 'linear-gradient(135deg, #4c1d95, #c026d3)',
     accent: '#f472b6',
     category: 'Dolls & Plushie',
-    badge: '👗 HAUTE COUTURE DOLL',
-    icon: '✨'
+    badge: 'ðŸ‘— HAUTE COUTURE DOLL',
+    icon: 'âœ¨'
   },
   'PLAYVAULT': {
     grad: 'linear-gradient(135deg, #0f172a, #1e293b)',
-    accent: '#3b82f6',
+    accent: 'var(--branch-teal-500)',
     category: 'Action Figure & Collectibles',
-    badge: '🛡️ COLLECTIBLES VAULT',
-    icon: '⚔️'
+    badge: 'ðŸ›¡ï¸ COLLECTIBLES VAULT',
+    icon: 'âš”ï¸'
   },
   'NEXUS ARCHIVE': {
     grad: 'linear-gradient(135deg, #18181b, #3f3f46)',
     accent: '#60a5fa',
     category: 'Action Figure & Collectibles',
-    badge: '📦 CURATED DROP ARTIFACT',
-    icon: '💎'
+    badge: 'ðŸ“¦ CURATED DROP ARTIFACT',
+    icon: 'ðŸ’Ž'
   },
-  'NEOPOP® Collective': {
+  'NEOPOPÂ® Collective': {
     grad: 'linear-gradient(135deg, #0369a1, #0891b2)',
     accent: '#22d3ee',
     category: 'Art Toys & Blind Box',
-    badge: '🎁 BLIND BOX & ART TOYS',
-    icon: '🎨'
+    badge: 'ðŸŽ BLIND BOX & ART TOYS',
+    icon: 'ðŸŽ¨'
   },
   'Kokoro Atelier': {
     grad: 'linear-gradient(135deg, #831843, #db2777)',
     accent: '#fbcfe8',
     category: 'Dolls & Plushie',
-    badge: '🌸 KAWAII TOKYO DIRECT',
-    icon: '🎀'
+    badge: 'ðŸŒ¸ KAWAII TOKYO DIRECT',
+    icon: 'ðŸŽ€'
   },
   'POUF & COMPANION': {
     grad: 'linear-gradient(135deg, #164e63, #0d9488)',
     accent: '#5eead4',
     category: 'Dolls & Plushie',
-    badge: '🧸 LUXURY PLUSH DESIGNER',
-    icon: '🧸'
+    badge: 'ðŸ§¸ LUXURY PLUSH DESIGNER',
+    icon: 'ðŸ§¸'
   },
   'KRAFTBEAR': {
     grad: 'linear-gradient(135deg, #78350f, #d97706)',
     accent: '#fde68a',
     category: 'Dolls & Plushie',
-    badge: '🧵 CUSTOM PLUSH WORKSHOP',
-    icon: '🪡'
+    badge: 'ðŸ§µ CUSTOM PLUSH WORKSHOP',
+    icon: 'ðŸª¡'
   },
   'BAEREN Atelier': {
     grad: 'linear-gradient(135deg, #451a03, #92400e)',
     accent: '#fbbf24',
     category: 'Dolls & Plushie',
-    badge: '👑 HEIRLOOM TEDDY NO. 1-999',
-    icon: '👑'
+    badge: 'ðŸ‘‘ HEIRLOOM TEDDY NO. 1-999',
+    icon: 'ðŸ‘‘'
   },
   'WonderLudo': {
-    grad: 'linear-gradient(135deg, #1e3a8a, #2563eb)',
+    grad: 'linear-gradient(135deg, var(--branch-teal-800), var(--branch-teal-700))',
     accent: '#93c5fd',
     category: 'Edu Toys & Montessori',
-    badge: '🏰 PLAY EMPORIUM HAMLEYS',
-    icon: '🎪'
+    badge: 'ðŸ° PLAY EMPORIUM HAMLEYS',
+    icon: 'ðŸŽª'
   },
   'KIDORA Studio': {
     grad: 'linear-gradient(135deg, #065f46, #059669)',
     accent: '#6ee7b7',
     category: 'Edu Toys & Montessori',
-    badge: '🧠 PEDIATRICIAN-BACKED',
-    icon: '🧩'
+    badge: 'ðŸ§  PEDIATRICIAN-BACKED',
+    icon: 'ðŸ§©'
   },
-  'LumiPlay™': {
+  'LumiPlayâ„¢': {
     grad: 'linear-gradient(135deg, #1e1b4b, #4338ca)',
     accent: '#a5b4fc',
     category: 'Edu Toys & Montessori',
-    badge: '🔬 SENSORY PLAY LAB',
-    icon: '💡'
+    badge: 'ðŸ”¬ SENSORY PLAY LAB',
+    icon: 'ðŸ’¡'
   },
   'Kidadu': {
     grad: 'linear-gradient(135deg, #2e4a3d, #3b6b55)',
     accent: '#86efac',
     category: 'Edu Toys & Montessori',
-    badge: '🌿 SCREEN-FREE MONTESSORI',
-    icon: '🪵'
+    badge: 'ðŸŒ¿ SCREEN-FREE MONTESSORI',
+    icon: 'ðŸªµ'
   },
   'SPINVERSE': {
     grad: 'linear-gradient(135deg, #311042, #7e22ce)',
     accent: '#e879f9',
     category: 'Action Figure & Collectibles',
-    badge: '🪐 3D HOLOGRAM PLAY LAB',
-    icon: '🚀'
+    badge: 'ðŸª 3D HOLOGRAM PLAY LAB',
+    icon: 'ðŸš€'
   },
   'SMILEX Studio': {
     grad: 'linear-gradient(135deg, #09090b, #1e293b)',
     accent: '#38bdf8',
     category: 'Art Toys & Blind Box',
-    badge: '🎌 ANIME FIGURE 3D ROTATE',
-    icon: '⛩️'
+    badge: 'ðŸŽŒ ANIME FIGURE 3D ROTATE',
+    icon: 'â›©ï¸'
   }
 };
 
@@ -134,10 +134,6 @@ export default function PortfolioSection() {
 
   return (
     <section className="section section-alt" id="portofolio">
-      <div className="port-deco">
-        <div className="port-orb port-orb-1"></div>
-        <div className="port-orb port-orb-2"></div>
-      </div>
       <div className="container">
         <div className="section-head">
           <span className="eyebrow" style={{ background: 'rgba(13, 85, 104, 0.08)', color: '#0d5568', borderColor: 'rgba(13, 85, 104, 0.2)' }}>
@@ -170,10 +166,10 @@ export default function PortfolioSection() {
           {filteredTemplates.map((p, idx) => {
             const status = statuses[(idx + 8) % statuses.length];
             const theme = TOY_THEMES[p.name] || {
-              grad: 'linear-gradient(135deg, #1e3a8a, #2563eb)',
+              grad: 'linear-gradient(135deg, var(--branch-teal-800), var(--branch-teal-700))',
               accent: '#38bdf8',
               badge: 'TOY STORE',
-              icon: '🧸'
+              icon: 'ðŸ§¸'
             };
             const displayUrl = p.url
               ? p.url.replace(/^https?:\/\//, '').replace(/\/$/, '')
@@ -184,9 +180,6 @@ export default function PortfolioSection() {
                 key={idx}
                 className="port-card"
                 style={{
-                  background: '#ffffff',
-                  border: '1px solid rgba(37,99,235,0.16)',
-                  boxShadow: '0 12px 32px -12px rgba(15,23,42,0.12)',
                   display: 'flex',
                   flexDirection: 'column',
                   borderRadius: '20px',
@@ -195,7 +188,7 @@ export default function PortfolioSection() {
               >
                 {/* System Node Chip */}
                 <div className="sys-chip" style={{ margin: '16px 20px 8px' }}>
-                  <span className="sc-node" style={{ color: '#2563eb' }}>
+                  <span className="sc-node" style={{ color: 'var(--branch-teal-700)' }}>
                     Store Model {String(idx + 1).padStart(2, '0')}
                   </span>
                   <span className="sc-status">
@@ -340,7 +333,7 @@ export default function PortfolioSection() {
                 {/* Info Block */}
                 <div className="port-info" style={{ padding: '0 20px 20px', flex: 1, display: 'flex', flexDirection: 'column' }}>
                   <div className="port-row" style={{ marginBottom: '8px' }}>
-                    <span className="port-industry" style={{ color: '#2563eb', fontWeight: 800 }}>
+                    <span className="port-industry" style={{ color: 'var(--branch-teal-700)', fontWeight: 800 }}>
                       {p.industry}
                     </span>
                     <span className="port-live-badge" style={{ color: '#16a34a' }}>
@@ -360,18 +353,16 @@ export default function PortfolioSection() {
                         display: 'grid',
                         gridTemplateColumns: 'repeat(3, 1fr)',
                         gap: '8px',
-                        background: '#f8fafc',
                         padding: '10px 8px',
                         borderRadius: '12px',
-                        border: '1px solid #e2e8f0',
                         marginBottom: '16px',
                         textAlign: 'center'
                       }}
                     >
                       {p.stats.map((sv, sIdx) => (
                         <div key={sIdx} className="port-stat">
-                          <b style={{ fontSize: '15px', color: '#0f172a', display: 'block' }}>{sv.v}</b>
-                          <span style={{ fontSize: '10.5px', color: '#64748b', textTransform: 'uppercase', fontWeight: 700 }}>
+                          <b style={{ fontSize: '15px', display: 'block' }}>{sv.v}</b>
+                          <span style={{ fontSize: '10.5px', textTransform: 'uppercase', fontWeight: 700 }}>
                             {sv.l}
                           </span>
                         </div>
@@ -391,9 +382,9 @@ export default function PortfolioSection() {
                             fontWeight: 700,
                             padding: '3px 9px',
                             borderRadius: '9999px',
-                            background: 'rgba(37,99,235,0.08)',
-                            color: '#1d4ed8',
-                            border: '1px solid rgba(37,99,235,0.15)'
+                            background: 'rgba(13,85,104,0.08)',
+                            color: 'var(--branch-teal-600)',
+                            border: '1px solid rgba(13,85,104,0.15)'
                           }}
                         >
                           {t}
@@ -470,3 +461,4 @@ export default function PortfolioSection() {
     </section>
   );
 }
+

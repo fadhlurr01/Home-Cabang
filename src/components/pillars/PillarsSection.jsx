@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Globe, Layers, Search, BarChart3 } from 'lucide-react';
 
 const PILLARS = [
@@ -50,7 +50,7 @@ export default function PillarsSection() {
                 <div className="pillar-number">{p.num}</div>
 
                 <div className="sys-chip">
-                  <span className="sc-node">PILAR · {p.num}</span>
+                  <span className="sc-node">PILAR Â· {p.num}</span>
                   <span className="sc-status"><i></i> CORE SYSTEM</span>
                 </div>
 
@@ -58,7 +58,7 @@ export default function PillarsSection() {
                   width: 44,
                   height: 44,
                   borderRadius: '12px',
-                  background: 'linear-gradient(135deg, #2563eb, #1d4ed8)',
+                  background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))',
                   color: '#ffffff',
                   display: 'flex',
                   alignItems: 'center',

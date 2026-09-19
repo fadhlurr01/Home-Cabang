@@ -49,20 +49,23 @@ export default function MobileDrawer({ isOpen, onClose }) {
             <div style={{
               width: 36,
               height: 36,
-              borderRadius: '10px',
-              background: 'linear-gradient(135deg, #1d4ed8, #2563eb)',
+              borderRadius: '50%',
+              background: 'linear-gradient(135deg, #ef4444, #dc2626)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: '#ffffff'
+              color: '#ffffff',
+              boxShadow: '0 4px 12px rgba(239, 68, 68, 0.4)'
             }}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <rect x="3" y="6" width="8" height="15" rx="1" stroke="#ffffff" strokeWidth="2"/>
-                <rect x="13" y="3" width="8" height="18" rx="1" stroke="#ffffff" strokeWidth="2"/>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ width: 18, height: 18 }}>
+                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#ffffff" fill="rgba(255,255,255,0.25)" />
+                <path d="M2 17l10 5 10-5" stroke="#ffffff" />
+                <path d="M2 12l10 5 10-5" stroke="#ffffff" />
+                <circle cx="12" cy="7" r="1.5" fill="#ffffff" stroke="none" />
               </svg>
             </div>
             <span style={{ fontSize: '16px', fontWeight: 900, color: '#0f172a' }}>
-              CONTRACTOR<span style={{ color: '#2563eb' }}>.HUB</span>
+              TOYHUB<span style={{ color: '#ef4444' }}>.CABANG</span>
             </span>
           </div>
 
@@ -93,29 +96,29 @@ export default function MobileDrawer({ isOpen, onClose }) {
           </button>
 
           {/* Template & Produk Group */}
-          <div style={{ padding: '10px 14px', borderRadius: '12px', background: '#eff6ff', border: '1px solid #bfdbfe' }}>
-            <div style={{ fontSize: '12px', fontWeight: 800, color: '#1d4ed8', textTransform: 'uppercase', marginBottom: '8px', letterSpacing: '0.05em' }}>
+          <div style={{ padding: '10px 14px', borderRadius: '12px', background: 'rgba(13,85,104,0.06)', border: '1px solid rgba(13,85,104,0.15)' }}>
+            <div style={{ fontSize: '12px', fontWeight: 800, color: 'var(--branch-teal-700)', textTransform: 'uppercase', marginBottom: '8px', letterSpacing: '0.05em' }}>
               Template & Produk
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <button
                 type="button"
                 onClick={() => handleNavClick('#portofolio')}
-                style={{ display: 'flex', alignItems: 'center', gap: '8px', textAlign: 'left', background: 'transparent', border: 'none', color: '#2563eb', fontSize: '13.5px', fontWeight: 700 }}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', textAlign: 'left', background: 'transparent', border: 'none', color: 'var(--branch-teal-700)', fontSize: '13.5px', fontWeight: 700 }}
               >
                 <Blocks size={16} /> Brick Universe (KUBIKK)
               </button>
               <button
                 type="button"
                 onClick={() => handleNavClick('#portofolio')}
-                style={{ display: 'flex', alignItems: 'center', gap: '8px', textAlign: 'left', background: 'transparent', border: 'none', color: '#2563eb', fontSize: '13.5px', fontWeight: 700 }}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', textAlign: 'left', background: 'transparent', border: 'none', color: 'var(--branch-teal-700)', fontSize: '13.5px', fontWeight: 700 }}
               >
                 <Sparkles size={16} /> Fashion Doll (ICONIQ)
               </button>
               <button
                 type="button"
                 onClick={() => handleNavClick('#portofolio')}
-                style={{ display: 'flex', alignItems: 'center', gap: '8px', textAlign: 'left', background: 'transparent', border: 'none', color: '#2563eb', fontSize: '13.5px', fontWeight: 700 }}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', textAlign: 'left', background: 'transparent', border: 'none', color: 'var(--branch-teal-700)', fontSize: '13.5px', fontWeight: 700 }}
               >
                 <Package size={16} /> Collectibles (PLAYVAULT)
               </button>
@@ -164,7 +167,7 @@ export default function MobileDrawer({ isOpen, onClose }) {
             style={{
               width: '100%',
               padding: '12px',
-              background: 'linear-gradient(135deg, #2563eb, #1d4ed8)',
+              background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))',
               color: '#ffffff'
             }}
           >
@@ -176,14 +179,14 @@ export default function MobileDrawer({ isOpen, onClose }) {
               <button
                 type="button"
                 onClick={() => setLanguage('id')}
-                style={{ padding: '4px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700, background: language === 'id' ? '#2563eb' : '#f1f5f9', color: language === 'id' ? '#ffffff' : '#475569', border: 'none' }}
+                style={{ padding: '4px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700, background: language === 'id' ? 'var(--branch-teal-700)' : '#f1f5f9', color: language === 'id' ? '#ffffff' : '#475569', border: 'none' }}
               >
                 ID
               </button>
               <button
                 type="button"
                 onClick={() => setLanguage('en')}
-                style={{ padding: '4px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700, background: language === 'en' ? '#2563eb' : '#f1f5f9', color: language === 'en' ? '#ffffff' : '#475569', border: 'none' }}
+                style={{ padding: '4px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700, background: language === 'en' ? 'var(--branch-teal-700)' : '#f1f5f9', color: language === 'en' ? '#ffffff' : '#475569', border: 'none' }}
               >
                 EN
               </button>
@@ -203,3 +206,4 @@ export default function MobileDrawer({ isOpen, onClose }) {
     </div>
   );
 }
+

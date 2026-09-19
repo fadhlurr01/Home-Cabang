@@ -6,14 +6,14 @@ export default function FinalCtaSection() {
   const { openConsultModal } = useApp();
 
   const handleOpenWA = () => {
-    window.open('https://wa.me/6281234567890?text=' + encodeURIComponent('Halo Tim CONTRACTOR.HUB, saya ingin konsultasi mengenai implementasi website terpusat untuk jaringan cabang/franchise kami.'), '_blank');
+    window.open('https://wa.me/6281234567890?text=' + encodeURIComponent('Halo Tim TOYHUB, saya ingin konsultasi mengenai implementasi website terpusat untuk jaringan cabang/franchise toko mainan kami.'), '_blank');
   };
 
   return (
     <section className="section" id="kontak" style={{ paddingBottom: '120px' }}>
       <div className="container">
         <div className="card" style={{
-          background: 'linear-gradient(135deg, #0f172a, #1e3a8a)',
+          background: 'linear-gradient(135deg, #0f172a, var(--branch-teal-800))',
           color: '#ffffff',
           borderRadius: '24px',
           padding: '64px 48px',
@@ -70,7 +70,7 @@ export default function FinalCtaSection() {
               lineHeight: 1.6,
               marginBottom: '36px'
             }}>
-              Konsultasikan peta ekspansi cabang Anda dengan arsitek sistem CONTRACTOR.HUB hari ini. Dapatkan blueprint teknis dan audit integrasi gratis tanpa komitmen.
+              Konsultasikan peta ekspansi cabang Anda dengan arsitek sistem TOYHUB hari ini. Dapatkan blueprint teknis dan audit integrasi gratis tanpa komitmen.
             </p>
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
@@ -79,7 +79,7 @@ export default function FinalCtaSection() {
                 className="btn btn-primary"
                 onClick={openConsultModal}
                 style={{
-                  background: 'linear-gradient(135deg, #2563eb, #1d4ed8)',
+                  background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))',
                   color: '#ffffff',
                   padding: '14px 32px',
                   fontSize: '15px'
@@ -130,3 +130,4 @@ export default function FinalCtaSection() {
     </section>
   );
 }
+

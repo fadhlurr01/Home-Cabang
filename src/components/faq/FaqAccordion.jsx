@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 
 const FAQS = [
@@ -62,7 +62,7 @@ export default function FaqAccordion() {
                       transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)',
                       transition: 'transform 0.25s ease',
                       flexShrink: 0,
-                      color: '#2563eb'
+                      color: 'var(--branch-teal-700)'
                     }}
                   />
                 </button>
@@ -79,3 +79,4 @@ export default function FaqAccordion() {
     </section>
   );
 }
+

@@ -15,7 +15,7 @@ export default function PortfolioCard({ item, index }) {
           <span className="pb-dot" />
         </div>
         <span className="port-url-badge">
-          {item.name.toLowerCase().replace(/[^a-z0-9]/g, '')}.contractorhub.id
+          {item.name.toLowerCase().replace(/[^a-z0-9]/g, '')}.toyhub.id
         </span>
       </div>
 
@@ -34,7 +34,7 @@ export default function PortfolioCard({ item, index }) {
             style={{
               padding: '10px 18px',
               fontSize: '13px',
-              background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', // ROYAL BLUE
+              background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))', // ROYAL BLUE
               color: '#ffffff',
               boxShadow: '0 6px 18px rgba(37, 99, 235, 0.4)'
             }}
@@ -68,7 +68,7 @@ export default function PortfolioCard({ item, index }) {
             type="button"
             className="btn btn-outline"
             onClick={() => openPreviewModal(item)}
-            style={{ flex: 1, padding: '9px 12px', fontSize: '13px', borderColor: '#bfdbfe', color: '#2563eb' }}
+            style={{ flex: 1, padding: '9px 12px', fontSize: '13px', borderColor: 'rgba(13,85,104,0.2)', color: 'var(--branch-teal-700)' }}
           >
             <Eye size={14} /> Inspeksi
           </button>
@@ -81,7 +81,7 @@ export default function PortfolioCard({ item, index }) {
               flex: 1,
               padding: '9px 12px',
               fontSize: '13px',
-              background: 'linear-gradient(135deg, #2563eb, #1d4ed8)',
+              background: 'linear-gradient(135deg, var(--branch-teal-700), var(--branch-teal-600))',
               color: '#ffffff'
             }}
           >
