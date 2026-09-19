@@ -1,0 +1,392 @@
+export const PORTFOLIO_DATA = [
+  {
+    "name": "KUBIKK",
+    "industry": "E-Commerce · Brick Universe",
+    "tags": [
+      "Brick Modular",
+      "AI Master Builder",
+      "Creator 15%"
+    ],
+    "desc": "Template e-commerce brick modular premium: set arsitektur desainer, studio virtual builder dengan bill-of-materials real-time, dan Master Builder AI berbasis Gemini.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "500+",
+        "l": "Set Desain"
+      },
+      {
+        "v": "15%",
+        "l": "Royalti Kreator"
+      }
+    ],
+    "url": "https://kubik-delta.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "ICONIQ Atelier",
+    "industry": "E-Commerce · Fashion Doll",
+    "tags": [
+      "Fashion Doll",
+      "Atelier 3D",
+      "AI Stylist"
+    ],
+    "desc": "Template e-commerce boneka fashion haute couture: siluet kustom, lemari pakaian mix-and-match, AI Creative Director, dan garansi kolektor 30 hari.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "14+",
+        "l": "Articulation"
+      },
+      {
+        "v": "30",
+        "l": "Hari Garansi"
+      }
+    ],
+    "url": "https://iconic-livid.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "PLAYVAULT",
+    "industry": "E-Commerce · Toys & Collectibles",
+    "tags": [
+      "Action Figure",
+      "Tabletop",
+      "Limited Drop"
+    ],
+    "desc": "Template e-commerce mainan & koleksi: action figure, tabletop games, limited drops, dan proteksi packaging mint grade dengan ekspedisi premium.",
+    "stats": [
+      {
+        "v": "4.8",
+        "l": "Rating"
+      },
+      {
+        "v": "1.000+",
+        "l": "Koleksi"
+      },
+      {
+        "v": "Mint",
+        "l": "Grade"
+      }
+    ],
+    "url": "https://plytter.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "NEXUS ARCHIVE",
+    "industry": "E-Commerce · Digital Vault",
+    "tags": [
+      "Collectibles",
+      "Digital Vault",
+      "Curated Drop"
+    ],
+    "desc": "Template digital vault untuk koleksi modern: presentasi produk bersih tanpa distraksi, reservasi artifact, dan pengalaman kurasi yang terasa premium.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "Kurasi",
+        "l": "Premium"
+      },
+      {
+        "v": "Vault",
+        "l": "Digital"
+      }
+    ],
+    "url": "https://alluring-nexus-vault-core.base44.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "NEOPOP® Collective",
+    "industry": "E-Commerce · Art Toys",
+    "tags": [
+      "Art Toy",
+      "Blind Box",
+      "NFC Authentik"
+    ],
+    "desc": "Template toko art toy desainer & blind box: seri artist eksklusif, studio unboxing virtual, klub kolektor, dan sertifikat autentikasi NFC.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "Secret",
+        "l": "Chase"
+      },
+      {
+        "v": "NFC",
+        "l": "Sertifikat"
+      }
+    ],
+    "url": "https://neopop-one.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "Kokoro Atelier",
+    "industry": "E-Commerce · Kawaii Lifestyle",
+    "tags": [
+      "Kawaii",
+      "Character Capsule",
+      "Tokyo Direct"
+    ],
+    "desc": "Template e-commerce gaya hidup kawaii kontemporer: koleksi desainer, character capsules, dan fulfillment Tokyo Direct dengan segel lilin emas.",
+    "stats": [
+      {
+        "v": "4.8",
+        "l": "Rating"
+      },
+      {
+        "v": "Tokyo",
+        "l": "Direct"
+      },
+      {
+        "v": "Capsule",
+        "l": "Series"
+      }
+    ],
+    "url": "https://kokoro-one.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "POUF & COMPANION",
+    "industry": "E-Commerce · Luxury Plush",
+    "tags": [
+      "Plush Designer",
+      "AI Gift Match",
+      "Hug-Tested"
+    ],
+    "desc": "Template atelier plush mewah: boneka plush desainer whimsical, AI gift matching, custom packaging, dan bahan hypoallergenic ramah lingkungan.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "AI Gift",
+        "l": "Matching"
+      },
+      {
+        "v": "100%",
+        "l": "Hug-Tested"
+      }
+    ],
+    "url": "https://pouf-pi.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "KRAFTBEAR",
+    "industry": "E-Commerce · Plush Workshop",
+    "tags": [
+      "Custom Plushie",
+      "Voice Record",
+      "Workshop 3D"
+    ],
+    "desc": "Template workshop plushie interaktif: desain, isi, dandani, rekam suara, hingga adopsi boneka custom lengkap dengan sertifikat kelahiran.",
+    "stats": [
+      {
+        "v": "4.8",
+        "l": "Rating"
+      },
+      {
+        "v": "Custom",
+        "l": "Adopt"
+      },
+      {
+        "v": "Birth",
+        "l": "Cert"
+      }
+    ],
+    "url": "https://krft-sepia.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "BAEREN Atelier",
+    "industry": "E-Commerce · Heirloom Plush",
+    "tags": [
+      "Teddy Heirloom",
+      "Limited Edition",
+      "Bespoke"
+    ],
+    "desc": "Template atelier boneka beruang heirloom mewah: edisi terbatas bernomor, konfigurator bespoke, dan AI gifting concierge dengan provenance tracking.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "No. 1-999",
+        "l": "Limited"
+      },
+      {
+        "v": "5-Way",
+        "l": "Jointed"
+      }
+    ],
+    "url": "https://beren-olive.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "WonderLudo",
+    "industry": "E-Commerce · Play Emporium",
+    "tags": [
+      "Play Emporium",
+      "AI Gift Advisor",
+      "Multi-Page"
+    ],
+    "desc": "Template emporium mainan ultra-modern ala Hamleys: 8+ kategori, multi-page shopping, AI gift advisor, dan checkout tanpa hambatan.",
+    "stats": [
+      {
+        "v": "4.8",
+        "l": "Rating"
+      },
+      {
+        "v": "8+",
+        "l": "Kategori"
+      },
+      {
+        "v": "AI Gift",
+        "l": "Advisor"
+      }
+    ],
+    "url": "https://wonder-ludo.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "KIDORA Studio",
+    "industry": "E-Commerce · Edu Toys",
+    "tags": [
+      "Edu Toys",
+      "Pediatrician-Backed",
+      "Smart Gift"
+    ],
+    "desc": "Template e-commerce mainan perkembangan: kurasi milestone, rekomendasi dokter anak, baby registry, dan garansi kepuasan 30 hari.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "30-Day",
+        "l": "Guarantee"
+      },
+      {
+        "v": "Dokter",
+        "l": "Anak"
+      }
+    ],
+    "url": "https://kidor.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "LumiPlay™",
+    "industry": "E-Commerce · Play Lab",
+    "tags": [
+      "Sensory Toys",
+      "AI Concierge",
+      "Play Plan"
+    ],
+    "desc": "Template mainan perkembangan & sensory essentials: Pediatric AI Concierge yang menyusun play plan per tahap milestone anak.",
+    "stats": [
+      {
+        "v": "4.8",
+        "l": "Rating"
+      },
+      {
+        "v": "AI",
+        "l": "Pediatric"
+      },
+      {
+        "v": "Play",
+        "l": "Plan"
+      }
+    ],
+    "url": "https://lumiply.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "Kidadu",
+    "industry": "E-Commerce · Montessori",
+    "tags": [
+      "Montessori",
+      "Beechwood",
+      "Screen-Free"
+    ],
+    "desc": "Template toko mainan edukasi bebas layar: mainan kayu beechwood berkelanjutan berbasis prinsip Montessori untuk perkembangan anak.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "100%",
+        "l": "Beechwood"
+      },
+      {
+        "v": "Screen",
+        "l": "Free"
+      }
+    ],
+    "url": "https://kiddu-six.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "SPINVERSE",
+    "industry": "E-Commerce · Entertainment",
+    "tags": [
+      "Brand Ikonik",
+      "PlayMatch AI",
+      "Play Labs"
+    ],
+    "desc": "Template universe mainan & hiburan: brand ikonik, interactive play labs, dan rekomendasi hadiah PlayMatch AI.",
+    "stats": [
+      {
+        "v": "4.8",
+        "l": "Rating"
+      },
+      {
+        "v": "PlayMatch",
+        "l": "AI"
+      },
+      {
+        "v": "3D",
+        "l": "Hologram"
+      }
+    ],
+    "url": "https://verde-beryl.vercel.app/",
+    "view": "desktop"
+  },
+  {
+    "name": "SMILEX Studio",
+    "industry": "E-Commerce · Anime Figures",
+    "tags": [
+      "Anime Figure",
+      "Pre-Order",
+      "Preview 3D"
+    ],
+    "desc": "Template toko figure anime & art premium: pre-order, release schedule, dan preview 3D yang bisa diputar ala GoodSmile.",
+    "stats": [
+      {
+        "v": "4.9",
+        "l": "Rating"
+      },
+      {
+        "v": "Pre-Order",
+        "l": "Ready"
+      },
+      {
+        "v": "3D",
+        "l": "Rotate"
+      }
+    ],
+    "url": "https://milextudio.vercel.app/",
+    "view": "desktop"
+  }
+];

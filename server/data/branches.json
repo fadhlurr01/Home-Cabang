@@ -1,0 +1,87 @@
+[
+  {
+    "id": "jkt-pusat",
+    "city": "Jakarta Pusat",
+    "name": "HQ Contractor & Franchise Hub",
+    "address": "Jl. MH Thamrin No. 28, Menteng, Jakarta Pusat 10350",
+    "phone": "+62 21 3983 8800",
+    "whatsapp": "6281234567890",
+    "hours": "Senin - Sabtu: 08:00 - 20:00 WIB",
+    "manager": "Bambang Sudarsono, S.T.",
+    "status": "OPERASIONAL",
+    "coordinates": { "lat": -6.1889, "lng": 106.8234 },
+    "metrics": {
+      "activeProjects": 42,
+      "fleetAssigned": 18,
+      "rating": 4.9
+    }
+  },
+  {
+    "id": "sby-barat",
+    "city": "Surabaya Barat",
+    "name": "Regional Hub Jawa Timur",
+    "address": "Pakuwon Tower Lt. 15, Jl. Mayjen Jonosewojo No. 2, Surabaya 60216",
+    "phone": "+62 31 7393 2100",
+    "whatsapp": "6281234567891",
+    "hours": "Senin - Sabtu: 08:30 - 19:30 WIB",
+    "manager": "Hendrawan Putra, M.Arch.",
+    "status": "OPERASIONAL",
+    "coordinates": { "lat": -7.2891, "lng": 112.6756 },
+    "metrics": {
+      "activeProjects": 28,
+      "fleetAssigned": 12,
+      "rating": 4.8
+    }
+  },
+  {
+    "id": "mdn-kota",
+    "city": "Medan Kota",
+    "name": "Regional Hub Sumatra",
+    "address": "Podomoro City Deli Park, Jl. Putri Hijau No. 1, Medan 20111",
+    "phone": "+62 61 4552 1100",
+    "whatsapp": "6281234567892",
+    "hours": "Senin - Sabtu: 08:00 - 18:00 WIB",
+    "manager": "Dra. Nurhaliza Lubis",
+    "status": "OPERASIONAL",
+    "coordinates": { "lat": 3.5952, "lng": 98.6722 },
+    "metrics": {
+      "activeProjects": 19,
+      "fleetAssigned": 9,
+      "rating": 4.9
+    }
+  },
+  {
+    "id": "bdg-dago",
+    "city": "Bandung",
+    "name": "Creative Studio & Branch Jawa Barat",
+    "address": "Jl. Ir. H. Juanda No. 182, Dago, Bandung 40135",
+    "phone": "+62 22 2503 990",
+    "whatsapp": "6281234567893",
+    "hours": "Senin - Sabtu: 08:30 - 19:00 WIB",
+    "manager": "Rifki Pratama, S.Ars",
+    "status": "OPERASIONAL",
+    "coordinates": { "lat": -6.8856, "lng": 107.6133 },
+    "metrics": {
+      "activeProjects": 24,
+      "fleetAssigned": 10,
+      "rating": 4.9
+    }
+  },
+  {
+    "id": "dps-sanur",
+    "city": "Bali (Denpasar)",
+    "name": "Resort & Villa Branch Hub",
+    "address": "Jl. Bypass Ngurah Rai No. 340, Sanur, Denpasar Selatan 80228",
+    "phone": "+62 361 289 123",
+    "whatsapp": "6281234567894",
+    "hours": "Senin - Sabtu: 08:00 - 18:00 WITA",
+    "manager": "I Wayan Sukadana, S.T.",
+    "status": "OPERASIONAL",
+    "coordinates": { "lat": -8.6923, "lng": 115.2612 },
+    "metrics": {
+      "activeProjects": 31,
+      "fleetAssigned": 14,
+      "rating": 5.0
+    }
+  }
+]
